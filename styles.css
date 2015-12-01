@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+}
+.marginfix > :first-child {
+  margin-top: 0;
+}
+.marginfix > :last-child {
+  margin-bottom: 0;
+}
+.modal-container {
+display: none;
+position:fixed;
+left: 0;
+top: 0;
+right: 0;
+bottom: 0;
+background: rgba(0, 0, 0, 0.5);
+}
+/*.modal-overlay {
+  position:fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+}*/
+.modal-window {
+    position: fixed;
+    left: 20%;
+    top: 20px;
+    width: 60%;
+    padding: 10px;
+    border-radius: 5px;
+    background: white;
+}
